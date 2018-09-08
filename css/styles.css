@@ -56,13 +56,13 @@ body {
   --direction: -1;
 }
 
-/*@keyframes move {
-    50% {
-        transform: translateX(calc(100% * var(--direction)));
-    }
+@keyframes move {
+  50% {
+    transform: translateX(calc(100% * var(--direction)));
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
