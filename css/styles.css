@@ -50,13 +50,13 @@ body {
   --direction: 1;
 }
 
-/*.loader::after {
-    right: 0;
-    background-color: hotpink;
-    --direction: -1;
+.loader::after {
+  right: 0;
+  background-color: hotpink;
+  --direction: -1;
 }
 
-@keyframes move {
+/*@keyframes move {
     50% {
         transform: translateX(calc(100% * var(--direction)));
     }
